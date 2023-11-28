@@ -1,66 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
-  </head>
-  <body>
-    <header id="header">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-    </header>
-    <main>
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
-          <li>The ul element is an unordered list (bullet points)</li>
-          <li>The "title" within head is displayed in the browser</li>
-          <li>"alt" is a text description of the img element it is attached too</li>
-          <li>"meta" within the head section indicates characterastics of the webpage</li>
-          <li>class and ID can be used with css to avoid repeat inline code</li>
-        </ul>
 
-      </section>
-   
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>Cascading style sheets notes</li>
-          <li>define style characterastics such as font type, size, color or even margins</li>
-          <li>border-radius can defuse the boxy nature that elements are contained in</li>
-          <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
-          <li>a class selector can be defined and then attributed to all elements that are linked to it</li>
-          <li>can be inline, within the head or linked via a css file</li>
-          <li>box shadow elements, first px value is horizontal, 2nd is vertical and 3rd is blur (this can also be inset)</li>
-        </ul>
-      </section>
-   
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <li>providing the branch has not been deleted in github prompt, this can be used repeatedly for each edit</li>
-          <li>git has a lot of commands i need to put into practice before it sinks in</li>
-        </ul>
-      </section>
-   
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        <ul>
-          <li>Enter your JavaScript notes here</li>
-        </ul>
-      </section>
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Prework Study Guide</title>
+</head>
 
-    <footer>
-      <p>I can code!</p>
-    </footer>
-  </body>
+<body>
+  <header id="header">
+    <h1 style="text-decoration: underline;">Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    <h2>✨ Open the Console to See What's Happening ✨</h2>
+  </header>
+  <main>
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
+      <ul>
+        <li>The head element contains information about the webpage.</li>
+        <li>The body element represents the visible content shown to the user.</li>
+        <li>The ul element is an unordered list (bullet points)</li>
+        <li>The "title" within head is displayed in the browser</li>
+        <li>"alt" is a text description of the img element it is attached too</li>
+        <li>"meta" within the head section indicates characterastics of the webpage</li>
+        <li>class and ID can be used with css to avoid repeat inline code</li>
+      </ul>
+
+    </section>
+
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <ul>
+        <li>Cascading style sheets notes</li>
+        <li>define style characterastics such as font type, size, color or even margins</li>
+        <li>border-radius can defuse the boxy nature that elements are contained in</li>
+        <li>A margin indicates how much space we want around the outside of an element.</li>
+        <li>A padding indicates how much space we want around the content inside an element.</li>
+        <li>a class selector can be defined and then attributed to all elements that are linked to it</li>
+        <li>can be inline, within the head or linked via a css file</li>
+        <li>box shadow elements, first px value is horizontal, 2nd is vertical and 3rd is blur (this can also be inset)
+        </li>
+      </ul>
+    </section>
+
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <ul>
+        <li>git status: checks what branch we are currently on</li>
+        <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+        <li>providing the branch has not been deleted in github prompt, this can be used repeatedly for each edit</li>
+        <li>git has a lot of commands i need to put into practice before it sinks in</li>
+        <li>git commands (commit/push): </li>
+        <ul style="list-style-type: none;">
+          <li> Git status = current</li>
+          <li> &nbsp; " &nbsp; add -A = commit all</li>
+          <li> &nbsp; " &nbsp; -m "user defined message" = commits to upload stream with a descriptive comment</li>
+          <li> &nbsp; " &nbsp; push = update to github</li>
+          <li> &nbsp; " &nbsp; pull = update local repo to match github changes</li>
+        </ul>
+        <li>git commands (branch navigate): </li>
+        <ul style="list-style-type: none;">
+          <li> Git checkout feature/#### = navigate to existing branch</li>
+          <li> &nbsp; " &nbsp; push origin feature/add-js </li>
+        </ul>
+      </ul>
+    </section>
+
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>>> sample of code used <<</li>
+        <li>must be logged top to bottom</li>
+        <li>var = the variation i.e. <br/>
+          >>var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];<< </li>
+        <li> "for" will look at an array and fill in all topics with increments of +1 starting from 0 due to code x++ meaning +1 until all topic variations have been fulfilled. <br/>
+           >> for (var x = 0; x < topics.length; x++) {
+          console.log(topics[x]);
+        } << </li>
+        <li>without "for" loops, each part of the array would need an additional line of code (time consuming and messy) </li>
+        <li>A function is different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file is run. Instead, you must call a function by name in order to execute it.</li>
+
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>I can code!</p>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+
 </html>
